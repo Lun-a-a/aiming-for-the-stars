@@ -52,13 +52,10 @@ const Starfield = ({ count = 300, speed = 0.01 }) => {
 
     const draw = () => {
       ctx.clearRect(0, 0, w, h)
-      
-      // Draw deep space gradient
       const gradient = ctx.createRadialGradient(w/2, h/2, 0, w/2, h/2, Math.max(w, h) * 0.8)
-      gradient.addColorStop(0, 'rgba(15, 23, 42, 0.95)')
-      gradient.addColorStop(0.5, 'rgba(30, 41, 59, 0.8)')
+      gradient.addColorStop(0, 'rgba(0, 0, 0, 0.98)')
+      gradient.addColorStop(0.6, 'rgba(0, 0, 0, 0.995)')
       gradient.addColorStop(1, 'rgba(0, 0, 0, 1)')
-      
       ctx.fillStyle = gradient
       ctx.fillRect(0, 0, w, h)
 
@@ -112,7 +109,6 @@ const Starfield = ({ count = 300, speed = 0.01 }) => {
     }
 
     window.addEventListener('resize', handleResize)
-    // Prevent iOS Safari address bar changes from affecting canvas
     window.addEventListener('orientationchange', handleResize)
 
     return () => {

@@ -66,11 +66,10 @@ const About = () => (
             I am a 20-year-old full-stack developer, interested in computer science from a young age, currently in my third year of a Bachelor's degree in Computer Science at the Faculty of Arles.
           </p>
           <p className="text-lg text-gray-300 leading-relaxed">
-            I create applications focused on simplicity and efficiency. I have a solid foundation in various languages (both programming and spoken).
-            I look forward to applying my skills in a professional setting.
+            I create applications focused on simplicity and efficiency. I have a solid foundation in various languages (both programming and spoken), and I look forward to applying my skills in a professional setting.
           </p>
           <p className="text-lg text-gray-300 leading-relaxed">
-            Outside of programming, I play several video games competitively, most of them in teams. This has helped me develop a competitive spirit in my daily life.
+            Outside of programming, I play several video games competitively, most of them in teams. This has helped me develop a competitive spirit that I apply to my daily life.
           </p>
         </div>
         <div className="space-y-6">
