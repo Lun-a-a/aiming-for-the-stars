@@ -18,8 +18,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      description: "kylian.gagnant@orange.fr",
-      href: "mailto:kylian.gagnant@orange.fr",
+      description: "kyliangagnant@proton.me",
+      href: "mailto:kyliangagnant@proton.me",
       color: "text-purple-400",
       isLucide: true
     },
