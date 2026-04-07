@@ -27,7 +27,7 @@ const Contact = () => {
       icon: GitHubIcon,
       title: "GitHub",
       description: "Check my repositories",
-      href: "https://github.com/Vapoor",
+      href: "https://github.com/Lun-a-a",
       color: "text-gray-400",
       isLucide: false
     }
